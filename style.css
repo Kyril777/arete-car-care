@@ -1,0 +1,207 @@
+/*
+Theme Name: Arete Car Care
+Theme URI: http://arete.ikyril.com
+Author: Kyril J.
+Author URI: http://www.iKyril.com
+Description: Arete Car Care
+VersionL 1.0
+License: GNU General Public License v2 or Later
+License URI: http://www.gnu.org/licenses/apL-2.0,html
+Text Doman: iKyril.com
+*/
+
+
+body{
+  font-family: Helvetica, 'Open-sans', sans-serif;
+  font-size: 17px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  width: 100%;
+}
+
+.container{
+  margin:auto;
+}
+
+.primary-text{
+  color:#213f3f;
+}
+
+.primary-background{
+  background: #213f3f;
+}
+/* HEADER */
+#main-header{
+  border-bottom: 1px solid #213f3f;
+}
+
+/* NAVBAR */
+#navbar ul {
+  float: right;
+  list-style: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+#navbar ul li{
+  display: inline;
+  padding-right: 20px;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar ul li {
+    width: 100%; }
+}
+
+ul li a{
+  text-decoration: none;
+  color: #888;
+  font-family: sans-serif;
+  padding: 6px 10px;
+}
+
+ul li a:hover{
+  color: #213f3f;
+  border-bottom: 3px solid #213f3f;
+  padding-bottom: 3px;
+}
+
+.active{
+  border-bottom: 3px solid #213f3f;
+}
+
+/* SHOWCASE. */
+#showcase{
+  background-color: #000;
+  background: url("../images/arete-mechanic.jpg") no-repeat center center;
+  border-bottom: 1px solid #213f3f;
+  margin-bottom: 30px;
+  min-height: 750px;
+}
+
+#showcase .row{
+  height: 600px;
+}
+
+#showcase h1{
+  font-size: 50px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+#showcase p{
+  color:#ccc;
+  margin:0;
+}
+
+#showcase .showcase-content{
+  background: #27567f;
+  color: #fff;
+  border-radius: 90px;
+  padding: 40px;
+  opacity: 0.7;
+}
+
+/* FEATURES. */
+#features h2{
+  font-size: 35px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+#features p{
+  color: #888;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+#features .fa{
+  font-size: 60px;
+  color: #27567f;
+}
+
+/* INFO. */
+#info{
+  padding-top: 30px;
+  background: #333 url('') no-repeat;
+  color: #fff;
+}
+
+#info h2{
+  font-size: 35px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+#info ul{
+  list-style: none;
+  padding: 0;
+}
+
+#info li{
+  line-height: 2em;
+  font-size: 20px;
+}
+
+/* COMPANY. */
+#company{
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+#company h4{
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#company ul{
+  padding: 0;
+  list-style: none;
+  line-height: 2em;
+}
+
+/* FOOTER */
+#main-footer{
+  background: #213f3f;
+  color: #fff;
+}
+
+/* PAGE */
+#page{
+  margin-bottom: 40px;
+}
+
+/* SERVICES */
+.services ul li{
+  list-style: none;
+  padding: 10px;
+}
+
+.services ul li:nth-child(odd){
+  background:#213f3f;
+  color: #fff;
+}
+
+.services ul li:nth-child(even){
+  background:#333;
+  color: #fff;
+}
+
+/* MEDIA qUERIES. */
+@media(max-width:800px){
+  #showcase h1{
+    font-size: 30px;
+  }
+}
+
+@media(max-width:500px){
+  #showcase .showcase-content{
+    font-size: 30px;
+  }
+}
